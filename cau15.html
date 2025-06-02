@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="so_a" placeholder="hãy nhập số a"><br>
+    <input type="number_1" id="so_b" placeholder="hãy nhập số b"><br><br>
+    <button onclick="print_number()">In</button>
+    <h1 id="result"></h1>
+
+</body>
+<script>
+    function print_number(){
+        let a = document.getElementById("so_a").value;
+        let b = document.getElementById("so_b").value;
+        sum = 0;
+        count= 0;
+        for(let i= a; i <= b;i++){
+            if(i % 5===2){
+               sum= sum+i;
+                count ++;
+                      }
+        }
+        document.write(sum/count);
+    }
+</script>
+</html>
