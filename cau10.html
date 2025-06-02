@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập a ,b ,c . In ra số lớn nhất.</title>
+</head>
+<body>
+    <input type ="number" id="so_1" placeholder="hãy nhập số a"><br>
+    <input type ="number" id ="so_2" placeholder="hãy nhập số b"><br>
+    <input type ="number" id ="so_3" placeholder="hãy nhập số c"><br>
+    <button onclick = "timmax()">kiểm tra</button>
+</body>
+<script>
+    function timmax(){
+        let a = Number(document.getElementById("so_1").value);
+            let b = Number(document.getElementById("so_2").value);
+            let c = Number(document.getElementById("so_3").value);
+        let max = a;
+        if(b>max && b>c){
+            max = b;
+        }else if(c>max && c>b){
+            max = c;
+        }
+        else{
+            max = a;
+        }
+        alert("số lớn nhất là " + max);
+    }
+</script>
+</html>
