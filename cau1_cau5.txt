@@ -1,0 +1,34 @@
+Câu 1: Nêu các cách khai báo biến:   
+    có 3 cách khai báo biến đó là var, let , const;
+    - var: có thể truy cập ở phạm vi hàm số hoặc bên ngoài hàm số, toàn cục
+    - let: khai báo biến  chỉ có thể truy cập được trong block bao quanh nó được xác định bằng cặp {}
+    - const: khai báo 1 hằng số và giá trị của nó không thay đổi trong suốt chương trình
+Câu 2.Các kiểu dữ liệu đã được học (Nêu ví dụ về giá trị của chúng): 
+    - Number: dùng lưu trữ số nguyên và thực;
+        ví dụ: let a =10;
+                let b = 2;
+                let c = -10;
+    - String(chuỗi): Dùng để lưu trữ văn bản, nằm trong dấu nháy đơn ' ' hoặc nháy kép " "
+        ví dụ: let name = "Huy";
+                let ten = "abc";
+    - Boolean: biêu diễn đúng hoặc sai (true or false)
+        ví dụ let isOnline = true;
+                let isAdmin = fasle;
+    - Undefined: Một biến được khai báo nhưng chưa gán giá trị thì có kiểu undefined.
+        ví dụ let x;
+    - kiểu null: Dùng để biểu thị "không có gì" hoặc "giá trị rỗng" một cách rõ ràng.
+        ví dụ let name = null;
+    - kiểu mảng: Là một đối tượng đặc biệt, lưu trữ danh sách các giá trị (có thể khác kiểu).
+        ví dụ let x = ["huy",1,3,4,2];
+Câu 3: Làm sao để quy định kiểu dữ liệu cho 1 biến ?
+    trog JS, kiểu dữ liệu của một biến được tự động xác định khi gán một giá trị mà không cần phải khai báo kiểu dữ liệu trước
+Câu 4: Có những cách nào để hiển thị chữ hello ra từ JS (kèm ví dụ):
+        có 4 cách:
+            1. console.log("Hello");
+            2. alert("Hello!");
+            3. thông qua thẻ <p><h1>... bằng ID : document.getElementbyID("điền ID").innerHTML = "hello";
+            4.  document.write("hello");
+Câu 5:  Có những cách nào để nhập vào biến a với JS (kèm ví dụ):
+    - dùng prompt: 
+        let a = prompt("hãy nhập dữ liệu bạn muốn")
+    - 
