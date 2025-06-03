@@ -14,17 +14,17 @@
 </body>
 <script>
     function print_number(){
-        let a = document.getElementById("so_a").value;
-        let b = document.getElementById("so_b").value;
+        let a = Number(document.getElementById("so_a").value);
+        let b = Number(document.getElementById("so_b").value);
         sum = 0;
         count= 0;
-        for(let i= a; i <= b;i++){
+            for(let i= a; i <= b;i++){
             if(i % 5===2){
                sum= sum+i;
                 count ++;
                       }
         }
-        document.write(sum/count);
+        document.write("tổng của số chia hết cho 5 dư 2 là " + (sum/count));        
     }
 </script>
 </html>
